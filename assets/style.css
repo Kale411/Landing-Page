@@ -1,0 +1,44 @@
+*{
+    text-align:center;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+} 
+
+header {
+    overflow:hidden;
+    background-color:darkgrey;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+
+header a {
+    float: left;
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+header a:hover{
+    background:#ddd;
+    color:black;
+}
+
+body{
+    margin-top:60px;
+}
+
+fieldset{
+    display:inline;
+    background-color:bisque;
+}
+
+#image-1 {
+    height: 400px;
+    width: 300px;
+}
